@@ -26,15 +26,16 @@ header{
     margin: 1.25rem .625rem 0 .625rem;
     box-shadow: .3125rem .3125rem .25rem rgba(0, 0, 0, 0.25);
     display: flex;  
-    justify-content: space-around;  
-    align-items: center;   
+    justify-content: space-between;  
+    align-items: center;  
+    flex-wrap: :wrap 
 }
 
 .logo{
     width: 8.125rem;
     height: 85px;
-    margin-left: 5.9375rem
-    marg
+    margin-left: 5rem
+    
 }
 
 header nav{
