@@ -1,0 +1,75 @@
+/* Reseteando el formato por defecto */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: 0;
+    text-decoration: 0;
+}
+
+/* Fuentes Tipograficas */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+/*font-family: "Hind", sans-serif; */
+
+/* Header */
+body{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+
+header{
+    width: 99%
+    height: 6.25rem;
+    background-color: red;
+    border-radius: .4375rem;
+    margin: 1.25rem .625rem 0 .625rem;
+    box-shadow: .3125rem .3125rem .25rem rgba(0, 0, 0, 0.25);
+    display: flex;  
+    justify-content: space-around;  
+    align-items: center;   
+}
+
+.logo{
+    width: 8.125rem;
+    height: 85px;
+    margin-left: 5.9375rem
+    marg
+}
+
+header nav{
+    width: 37.9375rem;
+    height: 1.875rem;
+    margin: .125rem 0 .125rem ;
+    margin-left: 9.375rem;
+    
+}
+
+header nav ul{
+    display: flex;
+    font-family: "Hind", sans-serif;
+    font-weight: 600;
+    size: 1rem;
+    line-height: 1.6013rem;
+    text-align: center;
+    color: white;    
+    flex-wrap: nowrap; 
+    gap: 10px;
+    
+    
+}
+
+header nav ul li{
+    margin-left: .625rem;}
+
+
+header div ul{
+    width: 155px;
+    height: 1.5625rem;    
+    display: flex;
+    justify-content: space-around;
+}
+
+header .redesHeader{
+    margin-left: 10.8125rem;
+}
