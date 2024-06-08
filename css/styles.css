@@ -39,10 +39,10 @@ header{
 }
 
 header nav{
-    width: 37.9375rem;
+    width: 43.75rem;
     height: 1.875rem;
     margin: .125rem 0 .125rem ;
-    margin-left: 9.375rem;
+    margin-left: 2.5rem
     
 }
 
@@ -55,13 +55,14 @@ header nav ul{
     text-align: center;
     color: white;    
     flex-wrap: nowrap; 
-    gap: 10px;
-    
+    justify-content: space-between;
+    border-bottom: 5px;
     
 }
 
 header nav ul li{
-    margin-left: .625rem;}
+    border-bottom: 3px solid white;
+}
 
 
 header div ul{
@@ -72,5 +73,5 @@ header div ul{
 }
 
 header .redesHeader{
-    margin-left: 10.8125rem;
+    margin-right: 6.25rem;
 }
