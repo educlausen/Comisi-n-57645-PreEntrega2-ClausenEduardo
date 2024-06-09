@@ -16,12 +16,12 @@
  /* font-family: "Open Sans", sans-serif; */
 
 /* Header */
-body{
-    width: 100%;    
-}
+
+
 main{
-    width: 100%
-    background-color: blueviolet;    
+    width: 80%;
+    margin:auto;
+    height: auto;  
 }
 ul{
     list-style: none;
@@ -89,7 +89,7 @@ header .redesHeader{
 
 .bienvenidaPrincipal{
     margin: auto;
-    width: 85%;
+    width: auto;
     height: 31.25rem;
     background-color: blue    ;    
     margin-top: 3.125rem;
@@ -118,10 +118,6 @@ h1{
     text-align: left;
 }
 
-.bienvenidaPrincipal{
-    
-    
-}
 
 .bienvenidaPrincipal h1{
     margin-left: -.5625rem;
@@ -130,4 +126,50 @@ h1{
     color: violet;}
 .bienvenidaPrincipal h2:last-child{
     color: red;
-    margin-top: 10px;}
+    margin-top: .625rem;}
+
+/* Seccion Articulos Principal */
+
+.articulosPrincipal{
+    margin: auto;
+    width: auto;
+    height: auto;
+    background-color: #9B51E0;
+    margin-top: 3.125rem;
+    padding: 3.125rem;
+    border-radius: 1.25rem;
+        
+}
+
+.contenedorArticuloPrincipal{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    border-radius: 1.25rem;
+}
+
+.contenedorArticuloPrincipal div{
+    width: 30%;    
+    padding: 3.125rem 3.125rem;   
+}
+.contenedorArticuloPrincipal div img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    align-items: center;
+}
+.contenedorArticuloPrincipal section{
+    width: 60%;    
+    padding: 3.125rem 3.125rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.6175rem;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.contenedorArticuloPrincipal:nth-child(even){
+    flex-direction: row-reverse;
+}
+
