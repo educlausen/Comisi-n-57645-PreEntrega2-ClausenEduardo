@@ -312,3 +312,18 @@ footer div:last-child ul li{
     color: white;
     
 }
+/* Gran Formato */
+
+.granformato main{
+    background-color: #FD4682;
+    padding: 5.625rem;
+    border-radius: 1.25rem;
+    margin-top: 3.125rem;
+    box-shadow: .3125rem .3125rem .25rem rgba(0, 0, 0, 0.25);}
+
+.cart{
+    display: grid;
+    grid-template-columns: 50% 50%
+    }
+
+
