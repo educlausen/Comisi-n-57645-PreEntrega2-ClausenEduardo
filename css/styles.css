@@ -23,6 +23,7 @@ main{
     margin:auto;
     height: auto;  
 }
+
 ul{
     list-style: none;
 }
@@ -173,3 +174,63 @@ h1{
     flex-direction: row-reverse;
 }
 
+/* Footer */
+
+footer{
+    background-color: yellow;
+    width: 75%;
+    height: 18.75rem;
+    margin: auto;
+    margin-top: 3.125rem    ;
+    height: auto;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3.125rem;    
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 20px;
+    font-weight: 707;
+    line-height: 26px;
+    letter-spacing: 0.1em;    
+    text-align: center;
+
+}
+footer div{
+    flex-basis: 100%;
+  flex: 1;
+}
+
+footer div:first-child{
+    text-align: center;        
+}
+footer div:first-child img{
+    vertical-align: middle;
+    width: 15.625rem;
+    
+    
+}
+footer div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+    align-items:flex-start;    
+}
+
+footer div:nth-child(2) a{
+    margin-bottom: 1.5625rem;
+    text-decoration: none;
+    color: black}
+footer div:last-child{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;   
+}
+
+footer div:last-child ul li{
+    display: flex;
+    margin-bottom: 1.5625rem;
+    gap: 3.125rem;
+    
+}
