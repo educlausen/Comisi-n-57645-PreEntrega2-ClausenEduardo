@@ -14,6 +14,8 @@
  */
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
  /* font-family: "Open Sans", sans-serif; */
+ @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "PT Sans", sans-serif; */
 
 /* Header */
 
@@ -244,5 +246,69 @@ footer div:last-child ul li{
     display: flex;
     margin-bottom: 1.5625rem;
     gap: 3.125rem;
+    
+}
+
+/* Papeleria Comercial */
+
+
+
+.contenedor {  
+    display: grid;    
+    grid-template-columns: 30% 70%; 
+    grid-gap: 20px; 
+    border-radius: .4375rem
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 1.25rem
+}
+
+.papeleria main{
+    background-color: #FD4682;
+    padding: 5.625rem;
+    border-radius: 1.25rem;
+    margin-top: 3.125rem;
+    box-shadow: .3125rem .3125rem .25rem rgba(0, 0, 0, 0.25);
+}
+
+.item img{
+    height: 25rem; 
+    border-radius: 1.25rem   
+}
+
+.item:nth-child(even){
+    background-color: #8ED1FC;
+    border-radius: 1.25rem;
+    height: 25rem;
+    padding-left: 9.375rem;
+    padding-right: 
+}
+
+.item::nth-child(odd){
+    border-radius: 1.25rem;    
+}
+
+.item p{
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.88px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    width: 50rem;
+}
+.item h2{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 20px;
+    font-weight: 707;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
     
 }
