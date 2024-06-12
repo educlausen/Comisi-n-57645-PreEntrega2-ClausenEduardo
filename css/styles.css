@@ -27,7 +27,10 @@ header nav ul li a{
     color: white
 }
 
-
+.responsive-image{
+    max-width: 100%;
+    height: auto;
+}
 main{
     width: 80%;
     margin:auto;
@@ -39,10 +42,10 @@ ul{
 }
 
 header{
-    width: 99%;
+    width: 100%;
     height: auto;
     background-color: red;
-    border-radius: .4375rem;
+    border-radius: 1.25rem;
     margin: 1.25rem .625rem 0 .625rem;
     box-shadow: .3125rem .3125rem .25rem rgba(0, 0, 0, 0.25);
     display: flex;  
@@ -50,6 +53,7 @@ header{
     align-items: center;  
     flex-wrap: wrap 
 }
+
 
 .logo{
     width: 8.125rem;
@@ -190,7 +194,7 @@ h1{
 
 footer{
     background-color: yellow;
-    width: 94%;
+    width: 100%;
     height: 18.75rem;
     margin: auto;
     margin-top: 3.125rem    ;
@@ -198,7 +202,7 @@ footer{
     border-radius: 1.25rem;
     display: flex;
     flex-wrap: wrap;
-    padding: 3.125rem;    
+    padding: 0;    
     font-family: 'Cooper Hewitt', sans-serif;
     font-size: 1.25rem;
     font-weight: 707;
@@ -211,7 +215,7 @@ footer{
 }
 footer div{
     flex-basis: 100%;
-    flex: 1;
+    flex: 1
 }
 
 footer div:first-child{
@@ -248,6 +252,65 @@ footer div:last-child ul li{
     
 }
 
+/* NUEVA PAPELERIA */
+.mainPapeleria{
+    background-color: rgba(253, 70, 130, 1);
+    height: auto;
+    padding: 20px;
+    margin-top: 6.25rem;
+    border-radius: 1.25rem;
+}
+.papeleriarespo{
+    display: grid;
+    grid-template-columns: 21.875rem 1fr;
+    gap: 1.25rem;    
+    align-items: center;
+    margin-bottom: 3.125rem;     
+    
+    
+    
+
+}
+
+.papelfoto{    
+    background-color: rgba(253, 233, 66, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 1.875rem;
+    border-radius: 1.25rem;
+    
+    
+}
+.papeltexto{
+    background-color: rgba(142, 209, 252, 1);
+    text-align: left;     
+    padding-left: 1.875rem;
+    border-radius: 1.25rem;
+    max-height: max-content;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.papeltexto p{
+    font-family: "PT Sans", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.6175rem;
+    letter-spacing: 0.1em;
+    text-align: left;
+    
+    padding-top: 1.25rem;
+}
+.papeltexto h2{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 707;
+    line-height: 1.625rem;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+    
+}
 /* Papeleria Comercial */
 
 
@@ -360,27 +423,123 @@ footer div:last-child ul li{
     height: 1.875rem;}
 
 
+
+
 /* RESPONSIVE INDEX @media (max-width: xxxx px)*/
+@media (max-width: 1500px){
+    .contenedorArticuloPrincipal div img{
+        width: 21.875rem        ;
+        height: 350px;}
+        .item:nth-child(even){
+            padding-left: 10px;
+            width: 100%;
+        }
+    .item p{
+        width: auto ;
+    }
+    .item img{
+        width: 18.75rem;
+    }
+    .papeleria main{
+        padding-left: 20px;
+    }
+    .papeleria{
+        width: 100%;
+    };
+    }
+    
 
 @media (max-width: 1300px) {
+    .contenedorArticuloPrincipal div img{
+        width: 18.75rem;
+        height: 18.75rem;
+    }
+    .responsive-image{
+        max-width: 90%;
+        max-height: 90%;
+        height: auto;
+    }
     header{
         height: fit-content;
+        width: 100%;
     }
     header nav{
+    width: auto;
+    height: 3.125rem;
+    margin: .125rem 0 .125rem ;
+    }        
+    header nav ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        gap: .625rem;}
+    header nav ul li{
+        border-bottom: none;}
+    header .redesHeader{
+        margin-right: 3rem;
+            }  
+    footer{
+        font-size: .9375rem;
+    }
+}
+@media (max-width: 1300px) {
+
+    .item img{
+        width: 250px;
+        .item{
+            height: auto;            
+        }
+        .item 
+
+
+
+}
+
+@media (max-width: 1100px){
+    .bienvenidaPrincipal{
+        padding-left: 1.25rem;}
+        .bienvenidaPrincipal h1{
+            font-size: 3.125rem ;
+        }
+.contenedorArticuloPrincipal{
+    flex-direction: column;
+}
+.contenedorArticuloPrincipal:nth-child(even){
+    flex-direction: column-reverse;}
+
+    .contenedorArticuloPrincipal div img{
         width: auto;
-        height: 3.125rem;
-        margin: .125rem 0 .125rem ;
-        }        
-        header nav ul{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            justify-content: center;
-            gap: .625rem;}
-        header nav ul li{
-            border-bottom: none;}
-        header .redesHeader{
-            margin-right: 3rem;
-                }           
+        height: auto;
+    }
+
+footer{
+    width: 100%;
+    font-size: .9375rem;
+    margin: 0;
+    border-radius: 0px;
+    padding-left: 1.25rem;
+    
+}
+footer div:first-child img{
+    vertical-align: middle;
+    width: 200px;
+} 
+footer div:last-child ul li{
+    gap: .3125rem;
+
+}
+footer .divfooter{
+    display: none}
+
+footer div:last-child{
+    margin-right: 0;}
+
+    .papeleriarespo{
+        display: grid;
+        grid-template-columns: 12.5rem 1fr;
+        gap: 1.25rem;    
+        align-items: center;
+        margin-bottom: 3.125rem; 
 }
 
 @media (max-width: 900px){
@@ -394,16 +553,37 @@ footer div:last-child ul li{
         padding-left: 5rem;
         margin-bottom: 1.25rem;
     }
+    footer div:last-child{
+        padding-right: 0
+}
+
+@media (max-width: 750px){
+    footer div:first-child{
+        width: 200px;
+    } 
+    footer div:first-child img{
+                width: 150px;
+}
+.articulosPrincipal{
+    padding: 0
+}
+.papeleriarespo{
+    display: flex;
+    flex-direction: column;
 
 }
+.papelfoto{
+    width: 12.5rem
+}
+
+
 @media (max-width: 700px){
     header{
         width: 100%;    
         display: flex;
         flex-direction: column;
         gap: 0px;
-                align-items: center;
-    
+                align-items: center;    
     }
     header nav ul{        
         display: flex;
@@ -419,12 +599,25 @@ footer div:last-child ul li{
     .logo{
         margin-left: .625rem;
     }
+    footer div:last-child{
+        margin-right:
+}
+}
 
-      
-        
 
-        
+@media (max-width: 600px){
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.bienvenidaPrincipal h1{
+    font-size: 1.875rem ;
+}
 
 
 
 }
+
+
+
+
