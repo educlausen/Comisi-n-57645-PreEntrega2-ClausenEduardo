@@ -40,7 +40,7 @@ ul{
 
 header{
     width: 99%;
-    height: 6.25rem;
+    height: auto;
     background-color: red;
     border-radius: .4375rem;
     margin: 1.25rem .625rem 0 .625rem;
@@ -53,7 +53,7 @@ header{
 
 .logo{
     width: 8.125rem;
-    height: 85px;
+    height: 5.3125rem;
     margin-left: 5rem
     
 }
@@ -76,12 +76,12 @@ header nav ul{
     color: white;    
     flex-wrap: nowrap; 
     justify-content: space-between;
-    border-bottom: 5px;
+    border-bottom: .3125rem;
     
 }
 
 header nav ul li{
-    border-bottom: 3px solid white;
+    border-bottom: .1875rem solid white;
 }
 
 
@@ -200,9 +200,9 @@ footer{
     flex-wrap: wrap;
     padding: 3.125rem;    
     font-family: 'Cooper Hewitt', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 707;
-    line-height: 26px;
+    line-height: 1.625rem;
     letter-spacing: 0.1em; 
     text-transform: uppercase;   
     text-align: center;
@@ -255,7 +255,7 @@ footer div:last-child ul li{
 .contenedor {  
     display: grid;    
     grid-template-columns: 30% 70%; 
-    grid-gap: 20px; 
+    grid-gap: 1.25rem; 
     border-radius: .4375rem
 }
 
@@ -294,18 +294,18 @@ footer div:last-child ul li{
 
 .item p{
     font-family: "PT Sans", sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
-    line-height: 25.88px;
+    line-height: 1.6175rem;
     letter-spacing: 0.1em;
     text-align: left;
     width: 50rem;
 }
 .item h2{
     font-family: 'Cooper Hewitt', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 707;
-    line-height: 26px;
+    line-height: 1.625rem;
     letter-spacing: 0.1em;
     text-align: left;
     color: white;
@@ -322,9 +322,9 @@ footer div:last-child ul li{
 
 .granformato h2{    
     font-family: "Open Sans", sans-serif;;
-    font-size: 75px;
+    font-size: 4.6875rem;
     font-weight: 800;
-    line-height: 102.14px;
+    line-height: 6.3838rem;
     letter-spacing: -0.06em;
     text-align: center;
 
@@ -350,7 +350,7 @@ footer div:last-child ul li{
     font-family: "Hind", sans-serif;
     font-weight: 600;
     color: white;
-    border-bottom: 2px solid white;
+    border-bottom: .125rem solid white;
 }
 
 
@@ -360,3 +360,71 @@ footer div:last-child ul li{
     height: 1.875rem;}
 
 
+/* RESPONSIVE INDEX @media (max-width: xxxx px)*/
+
+@media (max-width: 1300px) {
+    header{
+        height: fit-content;
+    }
+    header nav{
+        width: auto;
+        height: 3.125rem;
+        margin: .125rem 0 .125rem ;
+        }        
+        header nav ul{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center;
+            gap: .625rem;}
+        header nav ul li{
+            border-bottom: none;}
+        header .redesHeader{
+            margin-right: 3rem;
+                }           
+}
+
+@media (max-width: 900px){
+
+    header{
+        display: grid;
+        grid-template-columns: 30% 70% ;
+        gap: 1.25rem
+    }
+    header .redesHeader{
+        padding-left: 5rem;
+        margin-bottom: 1.25rem;
+    }
+
+}
+@media (max-width: 700px){
+    header{
+        width: 100%;    
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+                align-items: center;
+    
+    }
+    header nav ul{        
+        display: flex;
+        flex-direction: column;        
+        }
+    .redesHeader{
+        margin-left: -2.5rem;
+    } 
+    header nav{
+        height: 12.5rem;
+        margin-top: 1.25rem;        
+    }   
+    .logo{
+        margin-left: .625rem;
+    }
+
+      
+        
+
+        
+
+
+
+}
