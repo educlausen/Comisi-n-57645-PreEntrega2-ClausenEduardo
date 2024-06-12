@@ -201,7 +201,7 @@ footer{
     padding: 3.125rem;    
     font-family: 'Cooper Hewitt', sans-serif;
     font-size: 20px;
-    fo<nt-weight: 707;
+    font-weight: 707;
     line-height: 26px;
     letter-spacing: 0.1em; 
     text-transform: uppercase;   
@@ -219,10 +219,9 @@ footer div:first-child{
 }
 footer div:first-child img{
     vertical-align: middle;
-    width: 15.625rem;
+    width: 15.625rem;    
     
-    
-}
+} 
 footer div:nth-child(2){
     display: flex;
     flex-direction: column;
@@ -286,7 +285,7 @@ footer div:last-child ul li{
     border-radius: 1.25rem;
     height: 25rem;
     padding-left: 9.375rem;
-    padding-right: 
+    
 }
 
 .item::nth-child(odd){
@@ -321,9 +320,43 @@ footer div:last-child ul li{
     margin-top: 3.125rem;
     box-shadow: .3125rem .3125rem .25rem rgba(0, 0, 0, 0.25);}
 
+.granformato h2{    
+    font-family: "Open Sans", sans-serif;;
+    font-size: 75px;
+    font-weight: 800;
+    line-height: 102.14px;
+    letter-spacing: -0.06em;
+    text-align: center;
+
+}
+
 .cart{
     display: grid;
-    grid-template-columns: 50% 50%
-    }
+    grid-template-columns: 50% 50%;
+    gap: 6.25rem;
+    padding: 10.9375rem}
+.cart div{
+    width: 34.375rem;
+    height: 46.875rem;
+    background-color: white;
+    border-radius: 1.25rem
+}
+
+/* BOOTSTRAP */
+.boostrap header div ul li a{    
+    text-decoration: none;
+}
+.boostrap header div ul li p{
+    font-family: "Hind", sans-serif;
+    font-weight: 600;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+
+
+.bsfooter ul li img{
+    width: 1.875rem;
+    height: 1.875rem;}
 
 
