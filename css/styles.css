@@ -100,6 +100,53 @@ header .redesHeader{
     margin-right: 6.25rem;
 }
 
+/* Merchandising */
+.mainmerc{
+    background-color: #9B51E0;
+    margin: 3.125rem auto;
+    padding: 3.125rem;
+    border-radius: 1.25rem;
+    color: white;
+    text-align: center;
+    
+}
+.gridMercha{
+    border-radius: 1.25rem;
+    padding: 3.125rem 0rem;
+    height: 62.5rem;
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    grid-template-rows: repeat(3, 30%);
+    gap: 3.125rem; 
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+        "item1 item2 item2"
+        "item1 item2 item2"
+        "item1 item3 item4"
+        ;
+}
+.gridMercha img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.25rem;
+    border: 2px solid white;
+    opacity: 0.9;
+}
+.merc1{
+    grid-area: item1;
+}
+.merc2{
+    grid-area: item2;    
+}
+.merc3{
+    grid-area: item3;
+}
+.merc4{
+    grid-area: item4;
+}
+
+
 /* main Principal */
 
 .bienvenidaPrincipal{
@@ -309,71 +356,10 @@ footer div:last-child ul li{
     letter-spacing: 0.1em;
     text-align: left;
     color: white;
-    
-}
-/* Papeleria Comercial */
-
-
-
-.contenedor {  
-    display: grid;    
-    grid-template-columns: 30% 70%; 
-    grid-gap: 1.25rem; 
-    border-radius: .4375rem
-}
-
-.item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: flex-start;
-    gap: 1.25rem
-}
-
-.papeleria main{
-    background-color: #FD4682;
-    padding: 5.625rem;
-    border-radius: 1.25rem;
-    margin-top: 3.125rem;
-    box-shadow: .3125rem .3125rem .25rem rgba(0, 0, 0, 0.25);
-}
-
-.item img{
-    height: 25rem; 
-    border-radius: 1.25rem   
-}
-
-.item:nth-child(even){
-    background-color: #8ED1FC;
-    border-radius: 1.25rem;
-    height: 25rem;
-    padding-left: 9.375rem;
+    padding-top: 1.25rem;
     
 }
 
-.item::nth-child(odd){
-    border-radius: 1.25rem;    
-}
-
-.item p{
-    font-family: "PT Sans", sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400;
-    line-height: 1.6175rem;
-    letter-spacing: 0.1em;
-    text-align: left;
-    width: 50rem;
-}
-.item h2{
-    font-family: 'Cooper Hewitt', sans-serif;
-    font-size: 1.25rem;
-    font-weight: 707;
-    line-height: 1.625rem;
-    letter-spacing: 0.1em;
-    text-align: left;
-    color: white;
-    
-}
 /* Gran Formato */
 
 .granformato main{
@@ -390,6 +376,10 @@ footer div:last-child ul li{
     line-height: 6.3838rem;
     letter-spacing: -0.06em;
     text-align: center;
+    color: white;
+    margin-top: 800px;
+    background-color: #9b51e088;  
+    
 
 }
 
@@ -400,14 +390,56 @@ footer div:last-child ul li{
     padding: 10.9375rem}
 .cart div{
     width: 34.375rem;
-    height: 46.875rem;
-    background-color: white;
+    height: 46.875rem;    
     border-radius: 1.25rem
 }
 
+.granformato main div div:first-child{
+    background-image: url('https://images.unsplash.com/photo-1611321767083-6f9783066f32?q=80&w=1794&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        height: 100vh; 
+        margin: 0; 
+}
+.granformato main div div:nth-child(2){
+    background-image: url(https://images.unsplash.com/photo-1529676468696-f3a47aba7d5d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+.granformato main div div:nth-child(3){
+    background-image: url(https://images.unsplash.com/photo-1608076306023-e8e71b797175?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FydGVsZXJpYSUyMG5lZ29jaW98ZW58MHwxfDB8fHww);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+.granformato main div div:last-child{
+    background-image: url(https://images.unsplash.com/photo-1690235740339-c7218dff407c?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.cart h2
+
+
+
+
+
 /* BOOTSTRAP */
-.boostrap header div ul li a{    
+.boostrap header div ul li a p{    
     text-decoration: none;
+    
 }
 .boostrap header div ul li p{
     font-family: "Hind", sans-serif;
@@ -416,7 +448,17 @@ footer div:last-child ul li{
     border-bottom: .125rem solid white;
 }
 
-
+.linksinestilos {
+    color: inherit; 
+    text-decoration: none; 
+    background-color: transparent; 
+}
+.unstyled-link:hover, 
+.unstyled-link:focus, 
+.unstyled-link:active {
+    color: inherit; 
+    text-decoration: none; 
+}
 
 .bsfooter ul li img{
     width: 1.875rem;
@@ -489,7 +531,7 @@ footer div:last-child ul li{
         .item{
             height: auto;            
         }
-        .item 
+        
 
 
 
@@ -598,10 +640,7 @@ footer div:last-child{
     }   
     .logo{
         margin-left: .625rem;
-    }
-    footer div:last-child{
-        margin-right:
-}
+    }    
 }
 
 
@@ -613,11 +652,4 @@ footer{
 .bienvenidaPrincipal h1{
     font-size: 1.875rem ;
 }
-
-
-
 }
-
-
-
-
