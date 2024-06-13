@@ -18,6 +18,10 @@
 /* font-family: "PT Sans", sans-serif; */
 
 /* Header */
+body {
+    width: 99%;
+}
+
 
 header nav ul li a{
     outline: none;
