@@ -1,0 +1,73 @@
+.header-flex{
+    display: flex;
+    background-color: map-get($colores , color2 );
+    color: map-get($colores, color3 );
+    padding: 0rem;
+    height: 16.875rem;
+    width: 100%;
+    .header-left{
+        flex: 0 0 43.8%;
+        max-width: 43.8%;
+        background-color: map-get($colores, color4 );        
+        @include flex(column,3.4375rem);
+        padding-left: 4.375rem;
+        padding-top: 3.75rem;            
+        }
+    .header-right{
+        flex: 0 0 56.2%;
+        max-width: 56.2%;
+        background-color: map-get($colores, color1);    
+        padding-top: 9.8125rem;
+        @include flex(row,none);
+        .header-info{
+            width: 100%;
+            padding-top: .6875rem;  
+            ul{
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                li{
+                    display: flex;
+                    align-items: center;
+                    font-weight: 300;
+                    font-style: normal;
+                    font-size: map-get($size, sm ); 
+                    letter-spacing: .0625rem;   
+                    color: map-get($colores , color5 );
+                    line-height: 1.5rem;
+                    justify-content: space-around;
+                    margin-left: 0;
+                    font-family:"Roboto Con", sans-serif;
+                    :last-child{
+                        display: flex;
+                        gap: 1.25rem;}
+                    p{
+                    margin-left: .3125rem;                }
+                }
+
+            }
+        }
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        flex-wrap: wrap;
+        li{
+            font-family: "Montserrat", sans-serif;
+            font-size: .875rem;
+            font-weight: 700;
+            line-height: 1.435rem;
+            text-align: left;
+            color: map-get($colores, color1 );    
+            margin-right: 2rem;
+            text-size-adjust: 100%;
+            text-transform: uppercase;
+        }
+    }
+    
+    
+}
+.header-info ul li:last-child{
+    display: flex;
+    gap: 20px;
+}

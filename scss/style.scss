@@ -1,0 +1,34 @@
+// Lo primero que llamamos son Utilities
+/*Primero llamamos utilites*/
+
+@import "./utilities/variables";
+@import "./utilities/mapas";
+@import "./utilities/mixin";
+
+
+
+
+// Se llaman a las carpetas bases en segundo lugar
+
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/imagenes";
+
+
+
+
+
+// Tercer lugar se llama a los Layout
+
+@import "./layout/header";
+
+
+// Cuarto lugar los componentes
+
+@import "./components/navbar.scss";
+
+
+
+// Por ultimo los mediaquert, si es Desktop va mayor a menor y si es cel a desktop va de menor a mayor
+
+@import "./layout/mediaQ/720";

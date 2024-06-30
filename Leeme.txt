@@ -1,7 +1,0 @@
-Buenas, querido tutor. 
-
-Le dejo Index + Papeleria hice el responsive
-Page Laser con boostrap
-El resto de paginas flex+grid.
-
-Desde ya muchas gracias.

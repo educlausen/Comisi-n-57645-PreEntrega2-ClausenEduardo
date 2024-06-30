@@ -1,0 +1,39 @@
+
+$colores:(
+    color1: white,
+    color2: #333,
+    color3: #fff,
+    color4: #FF2967,
+    color5: #b0bec5,
+    color6: #ff6b6b,
+    color7: #FFF56B,
+    color8: cyan,
+    color9: red,
+    color10: yellow,
+    color11: purple,
+    color12: lightblue,
+    color13: black,
+    color14: rgba(0, 0, 0, 0.7),
+    color15: #ADD8E6,
+    color16: #888,
+    color17: #555,
+    color18: #1F1F26,
+    color19: #FBC5E5,
+);
+
+$size:(
+    xs: .75rem,
+    sm: 1rem,
+    md: 1.25rem,
+    lg: 1.5rem,
+    xl: 1.75rem,
+    2xl: 2rem,
+    3xl: 2.25rem,
+    4xl: 2.5rem,
+    5xl: 3rem,
+    6xl: 3.75rem,
+    7xl: 4rem,
+    8xl: 4.25rem
+)
+
+// Se usa con map-get($colores: , color1  );  Ejemplo map-get($colores , color1: )
