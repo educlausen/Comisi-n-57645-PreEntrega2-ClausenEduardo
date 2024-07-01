@@ -20,6 +20,10 @@
         padding-top: 9.8125rem;
         @include flex(row,none);
         .header-info{
+            ul li:last-child{
+                display: flex;
+                gap: 1.25rem;
+            }
             width: 100%;
             padding-top: .6875rem;  
             ul{
@@ -38,9 +42,7 @@
                     justify-content: space-around;
                     margin-left: 0;
                     font-family:"Roboto Con", sans-serif;
-                    :last-child{
-                        display: flex;
-                        gap: 1.25rem;}
+                    
                     p{
                     margin-left: .3125rem;                }
                 }
@@ -52,7 +54,7 @@
         display: flex;
         list-style-type: none;
         flex-wrap: wrap;
-        li{
+        li a{
             font-family: "Montserrat", sans-serif;
             font-size: .875rem;
             font-weight: 700;
@@ -63,11 +65,9 @@
             text-size-adjust: 100%;
             text-transform: uppercase;
         }
+        }
     }
     
     
-}
-.header-info ul li:last-child{
-    display: flex;
-    gap: 1.25rem;
-}
+
+
