@@ -1,59 +1,28 @@
-.nosotros-texto section{
-    width: 100%;
-    background-image: url(../assets/img/about-us.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 50%;
-    background-position-y: 50%;    
+.papeleria {   
     height: auto;
-    padding: 6.25rem;
-    text-align: left; 
+    background-color: map-get($colores, color1 );
+    margin: 0;
+    @include flex(column,3.125rem)   ; 
+    align-items: center;    
+    padding-bottom: 3.125rem;
+    .separator{
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+    h1{
+        margin-bottom: 3.125rem;
+        font-weight: 600;
+        text-align: center;
+    }
     h2{
-        font-size: 64px;
-        font-weight: 800;
+        font-size: map-get($size, md );
+        font-weight: 400;
     }
     p{
-        font-size: 24px;
-        font-weight: 300;
-        margin-top: 20px;
-    }   
-}
-
-
-.nosotros {
-    background-image: url(../assets/img/blurb-bg.jpg);    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 50%;
-    background-position-y: 50%;
-    margin: 0;
-    padding: 6.25rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 100%;
-    box-shadow: 0 0 10px map-get($colores, color14 );
-    article{
-        text-align: center;
-        padding: 1.25rem;
-        width: 100%;
-        height: 100%;
-    }
-    section{
-        h2{
-            font-size: map-get($size , 6xl);
-            font-weight: 400;
-            margin-bottom: .625rem;
-        }
-        h3{
-            font-size: map-get($size, 2xl );
-            font-weight: 700;
-            color: map-get($colores, color16 );
-            margin-bottom: 1.25rem;
-        }
+        font-weight: 200;
     }
 }
+
 
 
 
