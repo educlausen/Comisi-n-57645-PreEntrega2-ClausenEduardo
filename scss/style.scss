@@ -21,11 +21,13 @@
 // Tercer lugar se llama a los Layout
 
 @import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-index";
 
 
 // Cuarto lugar los componentes
 
-@import "./components/navbar.scss";
+@import "./components/separator";
 
 
 

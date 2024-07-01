@@ -1,0 +1,37 @@
+footer{
+    background-color: map-get($colores, color18 );
+    height: 21.875rem;
+    padding: 75px;
+    p{
+        font-family:"Roboto Con", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: map-get($size , sm ); 
+        letter-spacing: .0625rem;   
+        color: map-get($colores, color5 );
+        line-height: 1.5rem;
+        justify-content: space-around;
+        margin-left: .3125rem;
+    }
+    div{
+        @include flex (column,3.125rem);
+        align-items: center;
+        ul{
+            @include flex(row, 1.25rem)
+        }
+    }
+    .footer-logo{
+        padding-left: 4.0625rem;
+    }
+    footer .redes-header{
+        @include flex(row,1.25rem)
+    }
+}
+
+
+
+
+
+
+
+

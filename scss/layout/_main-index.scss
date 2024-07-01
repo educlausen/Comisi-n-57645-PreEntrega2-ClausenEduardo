@@ -1,0 +1,124 @@
+.index{
+    .primera-body{
+        display: flex;
+        height: auto;
+        h2{
+            font-size: map-get($size, 8xl );            
+            font-weight: 400;
+        }
+        strong{
+            font-size: map-get($size, 8xl );            
+            font-weight: 600;
+        }
+        
+        p{
+            font-size: map-get($size, xl);
+            font-weight: 300;
+            line-height: 2.5rem;
+        }
+        a{
+            font-size: map-get($size, sm );
+            font-weight: 600;
+            color: map-get($colores, color13 );
+
+            
+        }
+        .sec-izq{
+            flex: 0 0 43.8%;
+            .col-izq{
+                width: 80%;
+                margin: auto;
+                @include flex(column,none);
+                justify-content: space-around;
+                height: 100%;
+
+            }
+        }
+        .derecha-primera{
+            flex: 0 0 56.2%;
+            .banner-ver{
+                display: none;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+            }
+        }
+    }
+
+}
+
+
+
+.banner-50{    
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    background-color: map-get($colores , color10 );
+    .izq-50{
+        flex: 0 0 50%;
+        padding: 3.125rem;
+        .img-50{
+            width: 100%;
+            height: 100%;
+            opacity: 0.76;
+            border-radius: 15%;
+        };
+    
+    };
+    .der-50{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5625rem;
+    h2{
+        font-size: map-get($size, 4xl );
+        font-weight: 800;
+    }
+    h3{
+        font-size: map-get($size, xl );
+        font-weight: 500;
+    }
+    h4{
+        font-size: map-get($size, lg );
+        font-weight: 400;
+    }
+    ul li{
+        font-size: map-get($size, md );
+        margin-bottom: 1.25rem;
+        font-family: "Montserrat", sans-serif;
+        
+    };
+    
+}
+
+.der-50{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5625rem;
+h2{
+    font-size: map-get($size, 4xl );
+    font-weight: 800;
+}
+h3{
+    font-size: map-get($size, xl );
+    font-weight: 500;
+}
+h4{
+    font-size: map-get($size, lg );
+    font-weight: 400;
+}
+ul li{
+    font-size: map-get($size, md );
+    margin-bottom: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    
+}
+}
+}
+
+
+
+

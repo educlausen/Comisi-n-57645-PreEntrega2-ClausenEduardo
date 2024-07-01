@@ -4,11 +4,19 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none; }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 4.25rem; }
+
+p {
+  font-family: "Montserrat", sans-serif; }
+
+h1 {
+  font-family: "Montserrat", sans-serif; }
 
 .icon {
   width: auto;
@@ -79,4 +87,141 @@ h2 {
 
 .header-info ul li:last-child {
   display: flex;
-  gap: 20px; }
+  gap: 1.25rem; }
+
+footer {
+  background-color: #1F1F26;
+  height: 21.875rem;
+  padding: 75px; }
+  footer p {
+    font-family: "Roboto Con", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    letter-spacing: .0625rem;
+    color: #b0bec5;
+    line-height: 1.5rem;
+    justify-content: space-around;
+    margin-left: .3125rem; }
+  footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+    align-items: center; }
+    footer div ul {
+      display: flex;
+      flex-direction: row;
+      gap: 1.25rem; }
+  footer .footer-logo {
+    padding-left: 4.0625rem; }
+  footer footer .redes-header {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem; }
+
+.index .primera-body {
+  display: flex;
+  height: auto; }
+  .index .primera-body h2 {
+    font-size: 4.25rem;
+    font-weight: 400; }
+  .index .primera-body strong {
+    font-size: 4.25rem;
+    font-weight: 600; }
+  .index .primera-body p {
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 2.5rem; }
+  .index .primera-body a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: black; }
+  .index .primera-body .sec-izq {
+    flex: 0 0 43.8%; }
+    .index .primera-body .sec-izq .col-izq {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: none;
+      justify-content: space-around;
+      height: 100%; }
+  .index .primera-body .derecha-primera {
+    flex: 0 0 56.2%; }
+    .index .primera-body .derecha-primera .banner-ver {
+      display: none; }
+    .index .primera-body .derecha-primera img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill; }
+
+.banner-50 {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  background-color: yellow; }
+  .banner-50 .izq-50 {
+    flex: 0 0 50%;
+    padding: 3.125rem; }
+    .banner-50 .izq-50 .img-50 {
+      width: 100%;
+      height: 100%;
+      opacity: 0.76;
+      border-radius: 15%; }
+  .banner-50 .der-50 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5625rem; }
+    .banner-50 .der-50 h2 {
+      font-size: 2.5rem;
+      font-weight: 800; }
+    .banner-50 .der-50 h3 {
+      font-size: 1.75rem;
+      font-weight: 500; }
+    .banner-50 .der-50 h4 {
+      font-size: 1.5rem;
+      font-weight: 400; }
+    .banner-50 .der-50 ul li {
+      font-size: 1.25rem;
+      margin-bottom: 1.25rem;
+      font-family: "Montserrat", sans-serif; }
+  .banner-50 .der-50 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5625rem; }
+    .banner-50 .der-50 h2 {
+      font-size: 2.5rem;
+      font-weight: 800; }
+    .banner-50 .der-50 h3 {
+      font-size: 1.75rem;
+      font-weight: 500; }
+    .banner-50 .der-50 h4 {
+      font-size: 1.5rem;
+      font-weight: 400; }
+    .banner-50 .der-50 ul li {
+      font-size: 1.25rem;
+      margin-bottom: 1.25rem;
+      font-family: "Montserrat", sans-serif; }
+
+.separator {
+  display: flex; }
+  .separator div {
+    height: .625rem; }
+
+.red {
+  background-color: red;
+  width: 20%; }
+
+.yellow {
+  background-color: yellow;
+  width: 20%; }
+
+.purple {
+  background-color: purple;
+  width: 20%; }
+
+.blue {
+  background-color: lightblue;
+  width: 20%; }

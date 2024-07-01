@@ -1,0 +1,21 @@
+.separator {
+    display: flex;
+    div{height: .625rem;}
+
+}
+.red {
+    background-color: map-get($colores, color9 );
+    width: 20%; 
+}
+.yellow {
+    background-color: map-get($colores, color10);
+    width: 20%; 
+}
+.purple {
+    background-color: map-get($colores,color11 );
+    width: 20%; 
+}
+.blue {
+    background-color: map-get($colores, color12 );
+    width: 20%; 
+}
