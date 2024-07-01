@@ -146,6 +146,8 @@ footer {
     flex: 0 0 56.2%; }
     .index .primera-body .derecha-primera .banner-ver {
       display: none; }
+    .index .primera-body .derecha-primera .banner-hor {
+      display: block; }
     .index .primera-body .derecha-primera img {
       width: 100%;
       height: 100%;
@@ -569,72 +571,87 @@ footer {
 
 @media (max-width: 1000px) {
   .header-flex {
-    display: flex;
     flex-direction: column-reverse;
     gap: 0px;
     justify-content: flex-start;
+    height: auto; }
+    .header-flex .header-left {
+      width: 100%;
+      max-width: none;
+      flex: initial;
+      padding: 1.875rem 1.875rem;
+      height: auto; }
+      .header-flex .header-left nav ul {
+        justify-content: space-between;
+        padding: 0; }
+    .header-flex .header-right {
+      width: 100%;
+      max-width: none;
+      flex: initial;
+      padding: 1.25rem 0px;
+      margin: 0rem;
+      height: auto; }
+  .index .primera-body {
     height: auto;
-    width: 100%; }
-  .header-left {
-    width: 100%;
-    padding: 30px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .index .primera-body .sec-izq .col-izq {
+      width: 100%;
+      padding: 10px; }
+    .index .primera-body .derecha-primera .banner-hor {
+      display: none; }
+    .index .primera-body .derecha-primera .banner-ver {
+      display: block; }
+  .banner-50 {
+    display: block;
+    text-align: center;
+    padding: 50px;
     height: auto; }
-  .header-right {
-    width: 100%;
-    padding: 20px 0px;
-    margin: 0px;
-    height: auto; }
-  nav ul {
-    justify-content: space-between;
-    padding: 0; } }
+    .banner-50 .izq-50 {
+      display: none; } }
 
 @media (max-width: 660px) {
-  .nosotros-texto section h2 {
-    font-size: 32px; }
-  .nosotros-texto section p {
-    font-size: 20px; }
-  .nosotros strong {
-    font-size: 24px; }
-  .nosotros h2 {
-    font-size: 20px; }
-  .nosotros h3 {
-    font-size: 12px; }
-  .grid-class {
-    display: flex;
-    flex-direction: column; }
-  .primera-body {
+  .index .primera-body {
+    text-align: center;
     display: block; }
-  .derecha-primera {
-    display: none; }
-  .col-izq {
-    justify-content: space-between;
-    gap: 50px; }
-  .map-contacto {
-    flex-direction: column;
-    height: auto; }
-  .locations {
-    width: 100%; }
-  .map {
-    width: 100%; }
-  .nosotros {
-    padding: 5px; }
-  .nosotros article section h2 {
-    font-size: 28px;
-    font-weight: 400; }
-  .nosotros article section h3 {
-    display: none; }
-  .nosotros article section strong {
-    font-size: 28px; }
-  nav ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 0; }
-  .header-left {
+    .index .primera-body .sec-izq {
+      width: 100%; }
+      .index .primera-body .sec-izq .col-izq {
+        justify-content: space-between;
+        gap: 3.125rem;
+        width: 100%; }
+        .index .primera-body .sec-izq .col-izq h2, .index .primera-body .sec-izq .col-izq strong {
+          font-size: 1.75rem; }
+        .index .primera-body .sec-izq .col-izq p {
+          font-size: 1.25rem;
+          text-align: left; }
+      .index .primera-body .sec-izq .derecha-primera {
+        display: none; }
+    .index .primera-body .derecha-primera {
+      display: none; }
+    .index .primera-body .col-izq {
+      justify-content: space-between;
+      gap: 3.125rem; }
+  .index .banner-50 .der-50 h2 {
+    font-size: 1.75rem; }
+  .index .banner-50 .der-50 h3 {
+    font-size: 1.5rem; }
+  .index .banner-50 .der-50 h4 {
+    font-size: 1.25rem; }
+  .index .banner-50 .der-50 ul li {
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 1.25rem; }
+  header .header-flex .header-left {
     max-width: 100%;
     padding: 30px 20px;
-    height: auto; } }
+    height: auto; }
+    header .header-flex .header-left nav ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding-left: 0; } }
 
 @media (max-width: 520px) {
-  nav ul {
+  header .header-flex .header-left nav ul {
     display: grid;
     grid-template-columns: 40% 60%; } }
