@@ -1,0 +1,36 @@
+@media (max-width: 1000px){
+    .header-flex{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+        justify-content: flex-start;
+        height: auto;
+        width: 100%;
+        
+    }
+    .header-left{    
+        width: 100%;
+        padding: 30px 30px;
+        height: auto;
+    }
+    .header-right{    
+        width: 100%;    
+        padding: 20px 0px ;
+        margin: 0px;
+        height: auto;        
+    }
+    nav ul{
+        justify-content: space-between;
+        padding: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+}
