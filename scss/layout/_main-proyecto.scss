@@ -1,0 +1,19 @@
+.proyecto{
+    padding: 6.25rem 50px;
+    @include flex (column,3.125rem);
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    background-color: map-get($colores, color7 );
+    h1{
+        font-size: map-get($size, 6xl );
+        font-weight: 700;
+    }
+    strong{
+        font-size: map-get($size, 8xl );
+        font-weight: 800;
+    }
+    h2{
+        font-size: map-get($size, 5xl );
+    }
+}
