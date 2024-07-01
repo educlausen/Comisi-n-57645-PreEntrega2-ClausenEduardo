@@ -1,0 +1,59 @@
+.contactenos{
+    background-color: map-get($colores, color7 );     
+    height: 70vh;    
+    margin: 0;    
+    padding: 1.25rem;
+    border-radius: .3125rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;    
+    font-size: map-get($size, md );         
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    h2{
+        text-align: center;
+        font-size: map-get($size, 2xl );
+        margin-bottom: 1.25rem;
+        font-weight: 400;
+    }
+    form{
+        margin: auto;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    };
+    label {
+        margin-bottom: .3125rem;
+    };
+    input, textarea {
+        margin-bottom: 1.25rem;
+        padding: .625rem;
+        border: 1px solid #ddd;
+        border-radius: .1875rem;
+        width: 100%;
+    };
+    button {
+        padding: .625rem;
+        border: none;
+        background-color: map-get($colores, color2 );
+        color: map-get($colores, color3 );
+        border-radius: .1875rem;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    button:hover {
+        background-color: map-get($colores, color8 );
+
+
+}
+
+}
+
+
+
+
+
+
+

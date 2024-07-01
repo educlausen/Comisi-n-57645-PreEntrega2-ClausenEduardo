@@ -26,6 +26,7 @@
 @import "./layout/main-papel";
 @import "./layout/main-nosotros";
 @import "./layout/main-proyecto";
+@import "./layout/main-contaco";
 
 
 // Cuarto lugar los componentes
@@ -35,7 +36,8 @@
 @import "./components/card";
 @import "./components/mansory";
 @import "./components/kenburns-bottom";
-
+@import "./components/map";
+@import "./components/contactenos";
 
 
 // Por ultimo los mediaquert, si es Desktop va mayor a menor y si es cel a desktop va de menor a mayor
