@@ -12,14 +12,18 @@
         }
 
     }
-    .nosotros article section{
-        h2{
-        font-size:2rem       } 
-        h3{
-            font-size: 1.75rem;
-        }
-        strong{
-            font-size: 2.5rem;
-        }
+    .nosotros-texto .banner-50 .der-50{
+        h2{font-size: map-get($size, 2xl );}
+        h3{font-size: map-get($size, xl );}
+        p{font-size: map-get($size, md );}
+        
+
     }
+    .nosotros section{
+        h2{font-size: map-get($size, 2xl );}
+        h3{font-size: map-get($size, xl );}
+        strong{font-size: map-get($size, 3xl )}
+    }
+    
 }
+

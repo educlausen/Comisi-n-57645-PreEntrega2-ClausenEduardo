@@ -48,6 +48,11 @@ header .header-flex .header-left{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         padding-left: 0;}}
+.nosotros section{
+    h2{font-size: map-get($size, xl );}
+    h3{font-size: map-get($size, lg );}
+    strong{font-size: map-get($size, xl )}
+}
 
 
 }

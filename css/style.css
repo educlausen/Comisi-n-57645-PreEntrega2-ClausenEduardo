@@ -552,12 +552,18 @@ footer {
   .primera-body p {
     font-size: 1rem;
     line-height: auto; }
-  .nosotros article section h2 {
+  .nosotros-texto .banner-50 .der-50 h2 {
     font-size: 2rem; }
-  .nosotros article section h3 {
+  .nosotros-texto .banner-50 .der-50 h3 {
     font-size: 1.75rem; }
-  .nosotros article section strong {
-    font-size: 2.5rem; } }
+  .nosotros-texto .banner-50 .der-50 p {
+    font-size: 1.25rem; }
+  .nosotros section h2 {
+    font-size: 2rem; }
+  .nosotros section h3 {
+    font-size: 1.75rem; }
+  .nosotros section strong {
+    font-size: 2.25rem; } }
 
 @media (max-width: 1100px) {
   .nosotros {
@@ -649,7 +655,13 @@ footer {
     header .header-flex .header-left nav ul {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      padding-left: 0; } }
+      padding-left: 0; }
+  .nosotros section h2 {
+    font-size: 1.75rem; }
+  .nosotros section h3 {
+    font-size: 1.5rem; }
+  .nosotros section strong {
+    font-size: 1.75rem; } }
 
 @media (max-width: 520px) {
   header .header-flex .header-left nav ul {
