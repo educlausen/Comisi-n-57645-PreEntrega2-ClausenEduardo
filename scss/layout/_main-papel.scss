@@ -1,22 +1,22 @@
 .nosotros-texto section{
     width: 100%;
-    background-image: url(https://ld-wp73.template-help.com/wordpress/prod_2949/v1/wp-content/uploads/2019/10/about-us_bg.jpg);
+    background-image: url(../../assets/img/about-us.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;    
     height: auto;
-    padding: 3.125rem;
-    text-align: left;
-    .section {
-        h2{
-        font-size: map-get($size , 7xl );
-        font-weight: 800};
-        p{
-            font-size: map-get($size, lg );
-            margin-top: 1.25rem;
-        }
+    padding: 6.25rem;
+    text-align: left; 
+    h2{
+        font-size: 64px;
+        font-weight: 800;
     }
+    p{
+        font-size: 24px;
+        font-weight: 300;
+        margin-top: 20px;
+    }   
 }
 
 
