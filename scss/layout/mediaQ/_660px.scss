@@ -53,9 +53,24 @@ header .header-flex .header-left{
     h3{font-size: map-get($size, lg );}
     strong{font-size: map-get($size, xl )}
 }
+.papeleria .grid-class{
+    display: flex;
+    flex-direction: column;
+}
+.papeleria h1{
+    font-size: map-get($size, lg );
+    margin: 0;
+}
+.proyecto .mansory-contenedor{display: flex; flex-direction: column;}
+.contacto .map-contacto{
+    display: none;};
+.contactenos{height: auto};
 
+    
 
 }
+
+    
 
 
 

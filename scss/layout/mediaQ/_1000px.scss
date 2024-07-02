@@ -49,5 +49,25 @@
             display: none;
         } 
         }
-    
+    .papeleria .grid-class{
+        grid-template-columns: repeat(2, 1fr);
+        gap: .9375rem}
+    .proyecto .mansory-contenedor{
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        .mansory-item{object-fit: fill;};
+        .mansory-item-1 {
+            grid-column: span 1};
+        .mansory-item-2 {grid-row: span 1;};
+        .mansory-item-3{display: none}  ;
+        
     }
+.proyecto h1{        font-size: 2rem;
+                strong{font-size: 2rem;}}
+    .proyecto h2{font-size: 1.5rem}
+.locations{
+    padding-left: 1.25rem;
+}
+
+    }
+    

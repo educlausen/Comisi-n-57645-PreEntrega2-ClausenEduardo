@@ -540,9 +540,9 @@ footer {
     background-color: cyan; }
 
 @media (max-width: 1400px) {
-  .grid-class {
+  .papeleria .grid-class {
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px; } }
+    gap: .9375rem; } }
 
 @media (max-width: 1300px) {
   .primera-body h2 {
@@ -614,7 +614,33 @@ footer {
     padding: 50px;
     height: auto; }
     .banner-50 .izq-50 {
-      display: none; } }
+      display: none; }
+  .papeleria .grid-class {
+    grid-template-columns: repeat(2, 1fr);
+    gap: .9375rem; }
+  .proyecto .mansory-contenedor {
+    grid-template-columns: 1fr 1fr;
+    height: auto; }
+    .proyecto .mansory-contenedor .mansory-item {
+      object-fit: fill; }
+    .proyecto .mansory-contenedor .mansory-item-1 {
+      grid-column: span 1; }
+    .proyecto .mansory-contenedor .mansory-item-2 {
+      grid-row: span 1; }
+    .proyecto .mansory-contenedor .mansory-item-3 {
+      display: none; }
+  .proyecto h1 {
+    font-size: 2rem; }
+    .proyecto h1 strong {
+      font-size: 2rem; }
+  .proyecto h2 {
+    font-size: 1.5rem; }
+  .locations {
+    padding-left: 1.25rem; } }
+
+@media (max-width: 800px) {
+  .locations {
+    display: none; } }
 
 @media (max-width: 660px) {
   .index .primera-body {
@@ -661,7 +687,20 @@ footer {
   .nosotros section h3 {
     font-size: 1.5rem; }
   .nosotros section strong {
-    font-size: 1.75rem; } }
+    font-size: 1.75rem; }
+  .papeleria .grid-class {
+    display: flex;
+    flex-direction: column; }
+  .papeleria h1 {
+    font-size: 1.5rem;
+    margin: 0; }
+  .proyecto .mansory-contenedor {
+    display: flex;
+    flex-direction: column; }
+  .contacto .map-contacto {
+    display: none; }
+  .contactenos {
+    height: auto; } }
 
 @media (max-width: 520px) {
   header .header-flex .header-left nav ul {
